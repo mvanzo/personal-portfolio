@@ -1,49 +1,55 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'MV.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Marty Vanzo',
+  role: 'Full-Stack Web Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+  'Hard-working, customer-oriented, and impact-driven; I am a web developer with an ability to find effective, concise solutions to complex problems with an iterative and structured approach. I utilize my experience as a healthcare provider and athlete to thrive in fast-paced environments. As a collegiate athlete, I was part of a high-performing team as a result of personal and team-based growth, which is a culture that I bring with me.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/marty-vanzo/',
+    github: 'https://github.com/mvanzo',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Stu Knits',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'e-commerce website using Stripe API for checkout. Decoupled MERN application.',
+    stack: ['MongoDB', 'Express', 'React', 'Node'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    deployedLink: 'https://stuknits.netlify.app/',
   },
   {
-    name: 'Project 2',
+    name: 'Rankify',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Group project: Decoupled MERN app using Spotify’s API to create a song guessing game from a song snippet of a selected artist.',
+    stack: ['MongoDB', 'Express', 'React', 'Node'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    deployedLink: 'https://rankify-game.netlify.app/',
   },
   {
-    name: 'Project 3',
+    name: 'Touring Reports',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Full stack express app featuring trip reports and API-sourced weather for backcountry skiing in Washington state. Users can log in to view and create trip reports as well as view hourly and 7 day forecast charts for specific GPS locations.',
+    stack: ['PostgreSQL', 'Express', 'Node', 'EJS'],
+    sourceCode: 'https://github.com',
+    deployedLink: 'https://github.com',
+  },
+  {
+    name: 'Get That Cheese',
+    description:
+      '',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
+    deployedLink: 'https://github.com',
+  }
 ]
 
 const skills = [
@@ -52,15 +58,10 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'Python',
   'React',
-  'Redux',
-  'SASS',
   'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
