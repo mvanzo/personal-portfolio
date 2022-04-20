@@ -1,11 +1,9 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
+  homepage: 'http://localhost:3000/',
   title: 'MV.',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Marty Vanzo',
   role: 'Full-Stack Web Developer',
   description:
@@ -45,8 +43,8 @@ const projects = [
   {
     name: 'Get That Cheese',
     description:
-      '',
-    stack: ['SASS', 'TypeScript', 'React'],
+      ' Front end one player game on a 2D canvas map. Collect as many pieces of cheese as you can and get back to the mouse hole before time runs out or the cats catch you!',
+    stack: ['Javascript', 'Canvas', 'HTML', 'CSS'],
     sourceCode: 'https://github.com',
     deployedLink: 'https://github.com',
   }
@@ -66,7 +64,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'martin.vanzo@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
