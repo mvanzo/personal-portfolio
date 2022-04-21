@@ -14,8 +14,12 @@ const About = () => {
         </h1>
       )}
 
-      {role && <h2 className='about__role'>{role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+        {role && <h2 className='about__role'>{role}.</h2>}
+
+      <div className='about__container'>
+        <img src='https://i.imgur.com/GZI8RPX.jpg' alt="marty on a mountain" />
+        <p className='about__desc'>{description && description}</p>
+      </div>
 
       <div className='about__contact center'>
         {resume && (
