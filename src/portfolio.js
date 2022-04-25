@@ -5,7 +5,7 @@ const header = {
 
 const about = {
   name: 'Marty Vanzo',
-  role: 'Full-Stack Web Developer',
+  role: 'Full Stack Web Developer',
   description:
   'Hard-working, customer-oriented, and impact-driven; I am a web developer with an ability to find effective, concise solutions to complex problems with an iterative and structured approach. I utilize my experience as a healthcare provider and athlete to thrive in fast-paced environments. As a collegiate athlete, I was part of a high-performing team as a result of personal and team-based growth, which is a culture that I bring with me.',
   resume: 'https://example.com',
@@ -62,6 +62,7 @@ const skills = [
   'Mongoose',
   'PostgreSQL',
   'MongoDB',
+  'SQL',
   'HTTP',
   'RESTful API', 
   'AJAX',
@@ -72,8 +73,8 @@ const skills = [
   'Github',
   'Bash',
   'ERD',
-  'HTML',
-  'CSS',
+  'HTML5',
+  'CSS3',
 ]
 
 const contact = {
