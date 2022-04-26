@@ -21,7 +21,7 @@ const projects = [
     description:
       'e-commerce website using Stripe API for checkout. Decoupled MERN application.',
     stack: ['MongoDB', 'Express', 'React', 'Node'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/mvanzo/Client_Stu_Knits',
     deployedLink: 'https://stuknits.netlify.app/',
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     description:
       'Group project: Decoupled MERN app using Spotify’s API to create a song guessing game from a song snippet of a selected artist.',
     stack: ['MongoDB', 'Express', 'React', 'Node'],
-    sourceCode: 'https://github.com',
+    sourceCode: 'https://github.com/mvanzo/rankify-client',
     deployedLink: 'https://rankify-game.netlify.app/',
   },
   {
@@ -37,16 +37,16 @@ const projects = [
     description:
       'Full stack express app featuring trip reports and API-sourced weather for backcountry skiing in Washington state. Users can log in to view and create trip reports as well as view hourly and 7 day forecast charts for specific GPS locations.',
     stack: ['PostgreSQL', 'Express', 'Node', 'EJS'],
-    sourceCode: 'https://github.com',
-    deployedLink: 'https://github.com',
+    sourceCode: 'https://github.com/mvanzo/Touring-Reports',
+    deployedLink: 'https://touring-reports.herokuapp.com/',
   },
   {
     name: 'Get That Cheese',
     description:
       ' Front end one player game on a 2D canvas map. Collect as many pieces of cheese as you can and get back to the mouse hole before time runs out or the cats catch you!',
     stack: ['Javascript', 'Canvas', 'HTML', 'CSS'],
-    sourceCode: 'https://github.com',
-    deployedLink: 'https://github.com',
+    sourceCode: 'https://github.com/mvanzo/Get_That_Cheese',
+    deployedLink: 'https://mvanzo.github.io/Get_That_Cheese/',
   }
 ]
 
