@@ -9,10 +9,6 @@ const about = {
   description:
   'Hard-working, customer-oriented, and impact-driven; I am a web developer with an ability to find effective, concise solutions to complex problems with an iterative and structured approach. I utilize my experience as a healthcare provider and athlete to thrive in fast-paced environments. As a collegiate athlete, I was part of a high-performing team as a result of personal and team-based growth, which is a culture that I bring with me.',
   resume: 'https://example.com',
-  social: {
-    linkedin: 'https://www.linkedin.com/in/marty-vanzo/',
-    github: 'https://github.com/mvanzo',
-  },
 }
 
 const projects = [
@@ -55,23 +51,20 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'JavaScript',
-  'Python',
   'React',
   'Node',
   'Express',
-  'Sequelize',
+  'MongoDB',
   'Mongoose',
   'PostgreSQL',
-  'MongoDB',
+  'Sequelize',
   'SQL',
+  'Python',
   'HTTP',
   'RESTful API', 
   'AJAX',
   'Bootstrap',
-  'Material UI',
   'Chart.js',
   'Git',
   'Github',
@@ -84,6 +77,10 @@ const skills = [
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'martin.vanzo@gmail.com',
+  social: {
+    linkedin: 'https://www.linkedin.com/in/marty-vanzo/',
+    github: 'https://github.com/mvanzo',
+  },
 }
 
 export { header, about, projects, skills, contact }
