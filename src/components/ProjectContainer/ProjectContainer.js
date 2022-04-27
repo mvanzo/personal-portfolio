@@ -6,6 +6,7 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
+    <img src={project.screenshot} alt="screenshot" width="90%" />
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
