@@ -64,6 +64,7 @@ const skills = [
   'HTTP',
   'RESTful API', 
   'AJAX',
+  'Unit Tests',
   'Bootstrap',
   'Chart.js',
   'Git',
